@@ -219,8 +219,8 @@ prune_devdependencies() {
   fi
 }
 
-header "Pruning devDependencies"
-prune_devdependencies | output "$LOG_FILE"
+# header "Pruning devDependencies"
+# prune_devdependencies | output "$LOG_FILE"
 
 summarize_build() {
   if $NODE_VERBOSE; then
